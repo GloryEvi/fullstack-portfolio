@@ -84,7 +84,7 @@ ul {
   color: #fff;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 12px 12px;
 }
 .btn-branding:hover {
   background: var(--primary-color);
@@ -95,7 +95,7 @@ ul {
   border-radius: 5px;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 12px 10px;
 }
 .btn-branding2:hover {
   border: 1px solid var(--primary-color);
@@ -156,17 +156,18 @@ input[type="email"] {
 textarea {
   resize: vertical;
 }
-.form-button {
-  /* width: 100%; */
+.formb {
+  /* width: 100%; 
   padding: 12px;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
+  cursor: pointer; */
+  background-color: #fff;
 }
 
-button:hover {
+.formb:hover {
   background-color: var(--primary-color);
   color: #fff;
 }
