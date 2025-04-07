@@ -1,0 +1,243 @@
+:root {
+  --primary-color: #6c63ff;
+  --heading-font-family: "Playfair Dispaly", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+}
+body {
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 86px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 60px;
+}
+h4 {
+  font-size: 40px;
+}
+h5 {
+  margin: 0 auto;
+  line-height: 30px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+ul {
+  list-style-type: none;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 85px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.content-container {
+  padding: 30px 20px;
+}
+.content {
+  margin: 30px;
+}
+.content h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding:hover {
+  background: var(--primary-color);
+}
+.btn-branding2 {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding2:hover {
+  border: 1px solid var(--primary-color);
+}
+.project-description {
+  padding: 80px 40px;
+}
+.active {
+  color: var(--primary-color) !important;
+}
+.nav item {
+  padding: 0 10px;
+  line-height: 14px;
+}
+.live-demo,
+.view-source {
+  padding: 12px 10px;
+  margin: 5px;
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 7px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.live-demo:hover,
+.view-source:hover {
+  color: black;
+}
+.devicon {
+  font-size: 60px;
+}
+.pros {
+  text-align: center;
+}
+#contact-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* max-width: 600px;  */
+}
+input,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+input[type="text"],
+input[type="email"] {
+  height: 40px;
+}
+
+textarea {
+  resize: vertical;
+}
+.form-button {
+  /* width: 100%; */
+  padding: 12px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 1ooms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .evi {
+    display: flex;
+    justify-content: center;
+  }
+  .live-demo,
+  .view-source {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+  .devicon {
+    font-size: 35px;
+  }
+  .backc {
+    text-align: center;
+  }
+}
